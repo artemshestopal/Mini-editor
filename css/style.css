@@ -1,0 +1,74 @@
+body{
+	background: #FFF url('../img/crop.jpg') no-repeat;
+	background-size: cover;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 50px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+	background: #FFF;
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+.ba-editor-content{
+	background: #FFF;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+.ba-editor-title{
+	font: 400 40px/1.8 Arial,sans-serif;
+
+}
+.ba-editor-subscription{
+	list-style-type: square;
+}
